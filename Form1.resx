@@ -150,6 +150,15 @@
         AEbp8IlDCRUUAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="txtclear.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAADPSURBVEhL7dVPCgFxGMbxWXAV2VFOQeIErmDHBaTcQIq9C3ABlFha2tnYCgspf75vflPj1zvz
+        G4spMU99Sk+ed2oWeN+WBWavj8nkYSSW9AHOpA94Sxdn+EfDnNDBRylCOxalgNip4A7tkEa+W8YfZQ3t
+        VURZIVayuEI7EkU2snUmD+1AHDk4U4c2th2ws7oanGkjOAqzwdjqWnBmhODoiL3ViQmaVjeEM/KXGBxt
+        MbU6MUDJ6uZwRob+4IYeGriYTshvVBUZLE0n+vipeN4T19Whxz7S1fQAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAdoAAAHGCAYAAADT8EpPAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s

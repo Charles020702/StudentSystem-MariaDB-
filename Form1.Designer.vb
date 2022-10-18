@@ -43,6 +43,7 @@ Partial Class Form1
         Me.btnadd = New System.Windows.Forms.Button()
         Me.btnupdate = New System.Windows.Forms.Button()
         Me.btndelete = New System.Windows.Forms.Button()
+        Me.txtclear = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -271,6 +272,18 @@ Partial Class Form1
         Me.btndelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btndelete.UseVisualStyleBackColor = True
         '
+        'txtclear
+        '
+        Me.txtclear.Image = CType(resources.GetObject("txtclear.Image"), System.Drawing.Image)
+        Me.txtclear.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.txtclear.Location = New System.Drawing.Point(34, 394)
+        Me.txtclear.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.txtclear.Name = "txtclear"
+        Me.txtclear.Size = New System.Drawing.Size(98, 32)
+        Me.txtclear.TabIndex = 21
+        Me.txtclear.Text = "Clear"
+        Me.txtclear.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
@@ -279,6 +292,7 @@ Partial Class Form1
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(507, 450)
+        Me.Controls.Add(Me.txtclear)
         Me.Controls.Add(Me.btndelete)
         Me.Controls.Add(Me.btnupdate)
         Me.Controls.Add(Me.btnadd)
@@ -331,4 +345,5 @@ Partial Class Form1
     Friend WithEvents btnupdate As Button
     Friend WithEvents btndelete As Button
     Friend WithEvents cmbgender As ComboBox
+    Friend WithEvents txtclear As Button
 End Class
